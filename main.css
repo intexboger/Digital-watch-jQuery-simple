@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    width: 100vw;
+    background: url(file.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    overflow-x: hidden;
+}
+.sat {
+	width: 200px;
+	height: 200px;
+	font-size: 200px;
+	font-family: monospace, monospace;
+  	left: 40%;
+}
+
+
+img {
+	width: 100%;
+	height: 1040px;
+	margin-top:0;
+}
+
+.container-fluid {
+
+  position: absolute;
+ 
+  transform: translate(-50%, -50%);
+}
+
+footer {
+    width: 230px;
+    text-align: right;
+    float: left;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#ime {
+    font-family: 'Lobster', cursive;
+	color: white;
+    background: blue;
+    border-radius: 50%;
+    text-align:center;
+}
+
+.jasmin {
+    color:red !important;
+}
+
+@media (max-width:580px) {
+    body .container h1 {
+        font-size: 1.9em;
+        position: relative;
+        clear: both;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    body .container h3 {
+        margin-top: 10px;
+    }
+    body .container .location-wrapper p {
+        margin-top: -30px;
+    }
+    body .container .location-wrapper .form-control {
+        margin-top: -30px;
+    }
+    body .container footer{
+      position: relative;
+      margin-top: 15%;
+      margin-bottom: 100px;
+    }
+}
+.clock{
+    display: flex;
+}
+
+.clock div {
+    position:relative;
+    margin: 0 5px;
+    width: 100px;
+    height: 240px;
+}
+
+.clock div p {
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background: #f2ed6f;
+    
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 14px 45px 0px rgba(0,0,0,0.56);
+}
+.clock div p:first-child {
+    font-size:40px;
+    height: 80px;
+    background: #f4e04d;
+    border-radius:0 0 20px 20px;
+}
+
+.clock div:last-child p {
+    background: #512b58;
+    color: white;
+}
+
+.clock div:last-child p:last-child {
+    background: #2c003e;
+    color:white;
+}
